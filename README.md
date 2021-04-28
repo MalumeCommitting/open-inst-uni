@@ -1,4 +1,4 @@
-# PikDrive Test
+# OpenInstitute Test
 
 ## Project setup
 ```
