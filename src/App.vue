@@ -1,19 +1,22 @@
 <template>
 <div>
-  <side-menu />
+  <top-menu />
   <main class="col-md-12 ms-sm-auto col-lg-112 px-md-4">
       <router-view></router-view>
   </main>
+  <footer-menu />
 </div>
 </template>
 
 <script>
-import SideMenu from './components/menu/header_footer.vue'
+import TopMenu from './components/menu/header.vue'
+import FooterMenu from './components/menu/footer.vue'
 
 export default {
   name: 'App',
   components: {
-    SideMenu,
+    TopMenu,
+    FooterMenu,
   }
 }
 </script>

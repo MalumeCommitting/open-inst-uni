@@ -1,13 +1,11 @@
-import orders from './components/orders/routes';
-import suppliers from './components/suppliers/routes';
-import topsales from './components/top-sales/routes';
-import products from './components/products/routes';
-import productSuppliers from './components/product-suppliers/routes';
+import about from './components/about/routes';
+import programmes from './components/programmes/routes';
+import signin from './components/signin/routes';
+import signup from './components/signup/routes';
 
 export default [
-  ...orders,
-  ...suppliers,
-  ...topsales,
-  ...products,
-  ...productSuppliers,
+  ...about,
+  ...programmes,
+  ...signin,
+  ...signup,
 ];
