@@ -40,13 +40,15 @@ export default {};
         <div class="carousel-caption d-none d-md-block">
           <h5>More than just studying</h5>
           <p>Walk in as classmates and out as friends.</p>
-          <button
-            class="btn btn-primary"
-            type="submit"
-            style="border-radius: 20px;"
-          >
-            Register today
-          </button>
+          <router-link to="/signup" class="nav-link">
+            <button
+              class="btn btn-primary"
+              type="button"
+              style="border-radius: 20px;"
+            >
+              Register today
+            </button>
+          </router-link>
         </div>
       </div>
       <div class="carousel-item">
@@ -60,13 +62,15 @@ export default {};
           <p>
             State of the art equipment to practice what you learnt in class.
           </p>
-          <button
-            class="btn btn-primary"
-            type="submit"
-            style="border-radius: 20px;"
-          >
-            Register today
-          </button>
+        <router-link to="/signup" class="nav-link">
+            <button
+              class="btn btn-primary"
+              type="button"
+              style="border-radius: 20px;"
+            >
+              Register today
+            </button>
+          </router-link>
         </div>
       </div>
     </div>
@@ -184,15 +188,15 @@ export default {};
         </p>
         <p>
           <router-link to="/signup" class="nav-link">
-                <button
-                  class="btn btn-primary"
-                  type="button"
-                  style="border-radius: 20px;"
-                >
-                  Register now
-                </button>
-              </router-link>
-              </p>
+            <button
+              class="btn btn-primary"
+              type="button"
+              style="border-radius: 20px;"
+            >
+              Register now
+            </button>
+          </router-link>
+        </p>
       </div>
       <div class="col-md-5">
         <img src="../../assets/feature3.jpg" class="img-responsive" alt="..." />
@@ -273,7 +277,6 @@ export default {};
         </div>
       </strong>
     </div>
-
   </div>
   <!-- /.container -->
 </template>
